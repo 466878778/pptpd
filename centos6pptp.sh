@@ -12,10 +12,10 @@ function installVPN(){
 	
 	arch=`uname -m`
 	
-	wget http://www.121xx.net/1j/pptp/dkms-2.0.17.5-1.noarch.rpm
-	wget http://www.121xx.net/1j/pptp/kernel_ppp_mppe-1.0.2-3dkms.noarch.rpm
-	wget http://www.121xx.net/1j/pptp/pptpd-1.3.4-2.el6.x86_64.rpm
-	wget http://www.121xx.net/1j/pptp/ppp-2.4.5-17.0.rhel6.x86_64.rpm
+	wget https://github.com/466878778/pptpd/blob/master/dkms-2.0.17.5-1.noarch.rpm
+	wget https://github.com/466878778/pptpd/blob/master/kernel_ppp_mppe-1.0.2-3dkms.noarch.rpm
+	wget https://github.com/466878778/pptpd/blob/master/pptpd-1.3.4-2.el6.x86_64.rpm
+	wget https://github.com/466878778/pptpd/blob/master/ppp-2.4.5-17.0.rhel6.x86_64.rpm
 
 
 	yum -y install make libpcap iptables gcc-c++ logrotate tar cpio perl pam tcp_wrappers
